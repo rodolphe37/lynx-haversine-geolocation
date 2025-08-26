@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@lynx-js/react": "^0.112.4",
-    "lynx-haversine-geolocation": "1.0.0"
+    "lynx-haversine-geolocation": "1.0.1"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.3",
