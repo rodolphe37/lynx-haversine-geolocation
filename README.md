@@ -4,7 +4,7 @@
 
 ![lynx-haversine-geolocation demo](demo/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f656d6470726f2f696d6167652f75706c6f61642f76313636313234353234392f64656d6f5f62636d7a6d652e676966.gif)
 
-A **ReactLynx** hook (React18) to manage a geolocation history, using the **Haversine formula** to filter out nearby points and optimize tracking.  
+A **ReactLynx** hook (React18/19) to manage a geolocation history, using the **Haversine formula** to filter out nearby points and optimize tracking.  
 Works in **LynxJS apps** (iOS/Android/Web) and regular React projects.
 
 ---
