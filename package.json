@@ -1,0 +1,32 @@
+{
+  "name": "lynx-haversine-geolocation",
+  "version": "1.0.0",
+  "description": "Geolocation history management hook for Lynx/ReactLynx",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+ "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs",
+    "dev": "tsup src/index.ts --dts --format esm,cjs --watch",
+    "link:local": "npm pack && npm install ./lynx-haversine-geolocation-0.1.0.tgz",
+    "test:local": "cd example && npm install && npm run dev"
+  },
+  "peerDependencies": {
+    "@lynx-js/react": ">=0.1.0",
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.11",
+    "react": "^19.1.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "keywords": [
+    "lynx",
+    "geolocation",
+    "react",
+    "hook"
+  ],
+  "author": "Augusto Rodolphe",
+  "license": "MIT"
+}
