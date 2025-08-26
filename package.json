@@ -1,6 +1,6 @@
 {
   "name": "lynx-haversine-geolocation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Geolocation history management hook for Lynx/ReactLynx",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
